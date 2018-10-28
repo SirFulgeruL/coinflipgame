@@ -5,3 +5,5 @@ In case there are people that also are learning python3 I tried to comment every
 I know that probably there are ways to do it much better but like I said I am learning Python3.
 
 If you have any suggestions for this project let me know.
+
+TODO - If the player doesn't write heads or tails it will give him an error message.
