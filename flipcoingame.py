@@ -23,12 +23,8 @@ while True:
     playerchoice = random.choice(player_options)
     # asks the player which side he wants to choose
     noname = str(input("{} please choose which side of the coin you want (heads or tails): ".format(playerchoice)).lower().strip())
-    # if the user types anything else then heads or tails he has to chose a valid option
-    if noname != "heads" or "tails":
-        print("Please choose a valid option either heads or tails.")
-        break
     # here if playerchoice is player1 add in the dictionary player1 whichever he typed in
-    elif playerchoice == "player1" and noname == "heads" or "tails":
+    if playerchoice == "player1" and noname == "heads" or "tails":
         player1[noname] = {"heads_options": noname}
     # here if playerchoice is player2 add in the dictionary player1 whichever he typed in
     elif playerchoice == "player2" and noname == "heads" or "tails":
