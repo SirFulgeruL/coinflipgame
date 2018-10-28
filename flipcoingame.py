@@ -2,7 +2,7 @@ import random
 import time
 
 #informations and so on
-message = "Welcome to the Coinflip game by SirFulgeruL.\n\nBefore we start here are some helpful informations:\n -the game can be played with 2 players\n -1 player has to choose heads or tails\n -if the coin lands on heads the winner is the player that chose heads and so on.\n\nHave fun!"
+message = "Welcome to the Coinflip game.\n\nBefore we start here are some helpful informations:\n -the game can be played with 2 players\n -1 player has to choose heads or tails\n -if the coin lands on heads the winner is the player that chose heads and so on.\n\nHave fun!"
 print(message)
 time.sleep(3)
 # a list so that random fanction can choose either heads or tails
